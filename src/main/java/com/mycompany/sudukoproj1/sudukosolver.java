@@ -19,12 +19,7 @@ public class sudukosolver {
     System.out.println("Your unsolved board: "); 
     printBoard(board); //print board out before solving suduko for reference 
     
-   // if (solveBoard(board)) {
-     // System.out.println("Solved successfully!");
-   //}
-   // else {
-      //System.out.println("Unsolvable board :(");
-   // }
+   
     solveBoard(board);
     System.out.println("Your solved board: "); 
     printBoard(board);
