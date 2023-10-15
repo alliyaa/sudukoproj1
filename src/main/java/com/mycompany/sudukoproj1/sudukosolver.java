@@ -16,6 +16,7 @@ public class sudukosolver {
      board[i][j]= input.nextInt();  //take input for all values of board 
    }
    }
+    System.out.println("Your unsolved board"); 
     printBoard(board); //print board out before solving suduko for reference 
     
    // if (solveBoard(board)) {
@@ -25,6 +26,7 @@ public class sudukosolver {
       //System.out.println("Unsolvable board :(");
    // }
     solveBoard(board);
+    System.out.println("Your solved board"); 
     printBoard(board);
     
   }
